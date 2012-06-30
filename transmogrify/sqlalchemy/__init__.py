@@ -1,6 +1,11 @@
 import logging
 import sqlalchemy
-from sqlalchemy.exceptions import OperationalError
+
+try:
+    from sqlalchemy.exc import OperationalError
+except:
+    from sqlalchemy.exceptions import OperationalError
+
 from zope.interface import classProvides, implements
 from collective.transmogrifier.interfaces import ISectionBlueprint
 from collective.transmogrifier.interfaces import ISection
