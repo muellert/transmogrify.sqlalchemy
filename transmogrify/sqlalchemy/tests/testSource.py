@@ -25,7 +25,7 @@ class SQLSourceSectionTests(TestCase):
 
     def testReturnsDictionary(self):
         data=[row for row in self.source]
-        self.failUnless(isinstance(data[0], dict))
+        self.assertTrue(isinstance(data[0], dict))
 
     def testReturnedData(self):
         data=[row for row in self.source]
@@ -52,3 +52,4 @@ def test_suite():
     suite=TestSuite()
     suite.addTest(makeSuite(SQLSourceSectionTests))
     return suite
+
