@@ -40,3 +40,9 @@ database into the pipeline::
 .. _collective.transmogrifier: https://pypi.python.org/pypi/collective.transmogrifier
 
 
+
+
+The software was written by Wichert Akkermann of Jarn, but seems to
+be unmaintained. I only try to do basic maintenance to the package.
+
+
