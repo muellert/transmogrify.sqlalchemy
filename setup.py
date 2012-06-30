@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0.1'
+version = '1.0.2'
 
 setup(name='transmogrify.sqlalchemy',
       version=version,
@@ -26,5 +26,11 @@ setup(name='transmogrify.sqlalchemy',
           "collective.transmogrifier",
           "SQLAlchemy >=0.4",
       ],
+      extras_require = {
+	  'test': [
+	      'nose',
+	  ],
+      },
+
       test_suite='nose.collector',
       )
