@@ -6,7 +6,7 @@ version = '1.0.1'
 setup(name='transmogrify.sqlalchemy',
       version=version,
       description="Feed data from SQLAlchemy into a transmogrifier pipeline",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       classifiers=[
         "Programming Language :: Python",
