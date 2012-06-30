@@ -1,0 +1,15 @@
+Changelog
+=========
+
+1.0.1 - 2008-09-17
+------------------
+
+* The keys in the returned dictionary need to be normal strings.
+  [fschulze, soerensigfusson]
+
+
+1.0 - 2008-05-22
+----------------
+
+* Initial release
+  [wichert, mj]

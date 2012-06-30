@@ -1,0 +1,17 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:transmogrifier="http://namespaces.plone.org/transmogrifier"
+    i18n_domain="eli">
+
+    <utility
+        component=".utils.MemoryStore"
+        name="debug.memorystore"
+
+    <transmogrifier:registerConfig
+         name="sample"
+         title="Test: import from sqlite database "
+         description="Sqlite based test data."
+         configuration="pipeline.cfg"
+         />
+
+</configure>
